@@ -3,7 +3,7 @@
   "category": "building",
   "key": {
     "#": {
-      "item": "minecraft:cobblestone"
+      "item": "moblocks:pebble"
     }
   },
   "pattern": [
@@ -11,7 +11,7 @@
     "##"
   ],
   "result": {
-    "count": 4,
-    "id": "moblocks:cobblestone_bricks"
+    "count": 1,
+    "id": "minecraft:cobblestone"
   }
 }

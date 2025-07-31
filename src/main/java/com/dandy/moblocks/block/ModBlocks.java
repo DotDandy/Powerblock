@@ -18,9 +18,10 @@ public class ModBlocks {
     public static final DeferredRegister<Block> BLOCKS =
             DeferredRegister.create(ForgeRegistries.BLOCKS, MoBlocks.MOD_ID);
 
+    // Registered blocks
     public static final RegistryObject<Block> COBBLESTONE_BRICKS = registerBlock("cobblestone_bricks",
             () -> new Block(BlockBehaviour.Properties.of()
-                    .strength(4f).requiresCorrectToolForDrops().sound(SoundType.STONE)));
+                    .strength(1.5f).requiresCorrectToolForDrops()));
 
     // Block registry
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {
