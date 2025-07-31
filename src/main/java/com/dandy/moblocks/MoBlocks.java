@@ -60,6 +60,10 @@ public class MoBlocks
         if(event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
             event.accept(ModBlocks.COBBLESTONE_BRICKS);
         }
+
+        if(event.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
+            event.accept(ModItems.COPPER_CHISEL);
+        }
     }
 
     // You can use SubscribeEvent and let the Event Bus discover methods to call

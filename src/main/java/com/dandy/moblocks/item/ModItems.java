@@ -1,6 +1,7 @@
 package com.dandy.moblocks.item;
 
 import com.dandy.moblocks.MoBlocks;
+import com.dandy.moblocks.item.custom.ChiselItem;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
@@ -13,6 +14,9 @@ public class ModItems {
 
     public static final RegistryObject<Item> PEBBLE = ITEMS.register("pebble",
             () -> new Item(new Item.Properties()));
+
+    public static final RegistryObject<Item> COPPER_CHISEL = ITEMS.register("copper_chisel",
+            () -> new ChiselItem(new Item.Properties().durability(32)));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
