@@ -17,6 +17,10 @@ public class ModItems {
 
     public static final RegistryObject<Item> COPPER_CHISEL = ITEMS.register("copper_chisel",
             () -> new ChiselItem(new Item.Properties().durability(32)));
+    public static final RegistryObject<Item> IRON_CHISEL = ITEMS.register("iron_chisel",
+            () -> new ChiselItem(new Item.Properties().durability(128)));
+    public static final RegistryObject<Item> DIAMOND_CHISEL = ITEMS.register("diamond_chisel",
+            () -> new ChiselItem(new Item.Properties().durability(512)));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

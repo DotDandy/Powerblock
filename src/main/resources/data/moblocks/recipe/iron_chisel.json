@@ -6,7 +6,7 @@
       "item": "minecraft:stick"
     },
     "X": {
-      "item": "minecraft:copper_ingot"
+      "item": "minecraft:iron_ingot"
     },
     "@": {
       "item": "minecraft:string"
@@ -19,6 +19,6 @@
   ],
   "result": {
     "count": 1,
-    "id": "moblocks:copper_chisel"
+    "id": "moblocks:iron_chisel"
   }
 }

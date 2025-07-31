@@ -2,6 +2,8 @@
   "item.moblocks.pebble": "Pebble",
 
   "item.moblocks.copper_chisel": "Copper Chisel",
+  "item.moblocks.iron_chisel": "Iron Chisel",
+  "item.moblocks.diamond_chisel": "Diamond Chisel",
 
   "block.moblocks.cobblestone_bricks": "Cobblestone Bricks"
 }

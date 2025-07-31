@@ -63,6 +63,8 @@ public class MoBlocks
 
         if(event.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
             event.accept(ModItems.COPPER_CHISEL);
+            event.accept(ModItems.IRON_CHISEL);
+            event.accept(ModItems.DIAMOND_CHISEL);
         }
     }
 
